@@ -1,14 +1,14 @@
 {
-  "name": "mysqldump",
+  "name": "mysqldump-with-drop",
   "version": "1.1.1",
-  "description": "Create a DUMP from MySQL",
+  "description": "Create a DUMP from MySQL with DROP tables",
   "main": "index.js",
   "scripts": {
     "test": "mocha test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/webcaetano/mysqldump"
+    "url": "https://github.com/DeathMark/mysqldump"
   },
   "keywords": [
     "backup",
@@ -23,9 +23,9 @@
   "author": "Andre Caetano",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/webcaetano/mysqldump/issues"
+    "url": "https://github.com/DeathMark/mysqldump/issues"
   },
-  "homepage": "https://github.com/webcaetano/mysqldump",
+  "homepage": "https://github.com/DeathMark/mysqldump",
   "dependencies": {
     "async": "^1.4.2",
     "lodash": "^3.10.1",
