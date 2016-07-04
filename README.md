@@ -7,12 +7,12 @@ Create a backup from MySQL
 ## Installation
 
 ```
-npm install mysqldump
+npm install mysqldump-with-drop
 ```
 
 Example 
 ```javascript
-var mysqlDump = require('mysqldump');
+var mysqlDump = require('mysqldump-with-drop');
 
 mysqlDump({
 	host: 'localhost',
@@ -28,7 +28,7 @@ mysqlDump({
 Full Options Example :
 
 ```javascript
-var mysqlDump = require('mysqldump');
+var mysqlDump = require('mysqldump-with-drop');
 
 mysqlDump({
 	host: 'localhost',
@@ -96,6 +96,12 @@ Output table structure `Default: true`;
 Type: `Boolean`
 
 Output table data `Default: true`;
+
+#### dropTable
+
+Type: `Boolean`
+
+Add drop tables if exist at begining of create table `Default: false`;
 
 #### ifNotExist 
 
